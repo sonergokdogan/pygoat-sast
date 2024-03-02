@@ -25,4 +25,4 @@ jobs:
       run: pip install bandit
 
     - name: Run bandit scan
-      run: bandir -r .
+      run: bandit -r .
